@@ -1,0 +1,31 @@
+body{
+    font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* header-css */
+.background-banner{
+background-image: url('../images/Banner\ Image.png');
+width: 1400px;
+height: 600px;
+background-repeat: no-repeat;
+margin: 50px 100px 0px 100px;
+padding: 70px 0px 0px 0px;
+border-radius: 16px;
+}
+.happy-new-year{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.new-party{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px; 
+    margin-left: 344px;
+}
