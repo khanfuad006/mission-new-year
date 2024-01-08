@@ -1,6 +1,9 @@
 body{
     font-family: 'Merriweather', serif;
 font-family: 'Work Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 /* header-css */
@@ -105,6 +108,10 @@ line-height: normal;
 background-color: transparent;
 margin: 50px 0px 0px 158px;
 }
+.join-now-link{
+    text-decoration: none;
+    color: #FFF;
+}
 .main-2024{
     width: 300px;
     height: 410px;
@@ -131,6 +138,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 600;
 }
+
 .party-detail-color{
 color: #F00;
 text-align: center;
@@ -144,6 +152,9 @@ line-height: 56px;
     text-align: center;
     margin-top: 100px;
     
+}
+.join-link{
+    text-decoration: none;
 }
 .btn-join-now{
     border: 0px;
@@ -192,6 +203,7 @@ line-height: 32px;
 height: 364.844px;
 flex-shrink: 0;
     border-radius: 463px;
+    padding: 20px;
 border: 15px solid #F00;
 
 }
@@ -339,6 +351,7 @@ margin-top: -30px;
 .first-set:hover{
     width: 430px;
     height: 430px;
+    
 }
 .last-part{
     border-radius: 16px;
