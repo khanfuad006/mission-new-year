@@ -5,7 +5,9 @@ font-family: 'Work Sans', sans-serif;
 
 /* header-css */
 .background-banner{
-background-image: url('../images/Banner\ Image.png');
+    
+
+background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
 width: 1400px;
 height: 600px;
 background-repeat: no-repeat;
@@ -66,7 +68,7 @@ margin-left: 440px;
 flex-shrink: 0;
 }
 .celebration{
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     width: 1400px;
 height: 600px;
 background-repeat: no-repeat;
@@ -221,4 +223,128 @@ line-height: 32px;
 }
 .second-row{
     margin-right: 100px;
+}
+.functional{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.holidays{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.holiday{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.offer-info{
+    text-align: center;
+    margin: 200px;
+}
+.mother{
+    position: relative;
+    margin-top: -100px;
+}
+.wow-women{
+    width: 329px;
+height: 333px;
+flex-shrink: 0;
+margin-left: 1000px;
+position: relative;
+top: 10px;
+}
+.sale-group{
+    width: 166.841px;
+height: 166.841px;
+flex-shrink: 0;
+position: absolute;
+margin-left: 925px;
+top: 90px;
+}
+.down-bar{
+    width: 1219px;
+height: 229px;
+margin-left: 110px;
+flex-shrink: 0;
+position: absolute;
+
+}
+.gift-box{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: -250px; 
+    margin-left: 200px; 
+}
+.best-gifts{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.our-profile{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-top: -30px;
+}
+.membership{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-top: -30px;
+}
+.about-gift{
+    margin-left: 110px;
+    margin-right: 600px;
+}
+.first-set{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+.first-add{
+    margin-left: 110px;
+}
+.first-set:hover{
+    width: 430px;
+    height: 430px;
+}
+.last-part{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+    width: 1210px;
+    height: 400px;
+    margin-left: 110px;
+    margin-top: 100px;
 }
